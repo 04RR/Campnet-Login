@@ -21,8 +21,10 @@ class Lol():
         password.send_keys(Keys.ENTER)
 
 #time.sleep(30)
+username = input("Enter username ")
+passowrd = input('Enter password ')
 
-rohit = Lol('F20190967','fd481750')
+rohit = Lol(username,passowrd)
 rohit.login()
 
 
