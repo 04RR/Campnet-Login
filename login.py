@@ -19,6 +19,7 @@ class Lol():
         email.send_keys(self.username)
         password.send_keys(self.password)
         password.send_keys(Keys.ENTER)
+        bot.close()
 
 #time.sleep(30)
 username = input("Enter username ")
